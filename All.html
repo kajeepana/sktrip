@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> SK Travels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!----------------------------------------Fixed Navigation Bar ---------------------------------------------------------------------------------------------->
+    <nav class="navbar">
+        <ul>
+            <li class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Travel Logo" class="nav-logo"> SK Travels
+                </a>
+            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#login">Create Itinerary</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+
+     <!-----------------------------------------Home Page --------------------------------------------------------------------------------------------------------------->
+
+     <section id="home" class="hero_section">
+        <div class="section_content">
+            <div class="here_details">
+                    <p> Your journey begins here!<br>From breathtaking landscapes to vibrant cities, we make travel planning easy and enjoyable.<br> Find inspiration, create your itinerary, and embark on adventures you'll cherish forever.<br> Wherever you dream of going, we'll help you get there. </p>
+                    <h1>The world is calling—let's answer together.</h1>
+                    <button class="image" type="submit"> <a href="#login" > Start Planning Now...  </a> </button>
+            </div> 
+        </div>
+
+        <footer class="footer">
+            &copy; 2025 Your Website. All rights reserved.
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </footer>
+    </section>
+
+    <!------------------------------------Login Page ------------------------------------------------------------------------------------------------------------>
+
+    <section id="login">
+      <div class="body4">
+        <h2 class="heading4">Login</h2>
+        <form id="loginForm" method="post" action="login.php">
+          <div class="condent4">
+            <div class="username4">
+              <input type="text" placeholder="Enter Username" name="username" required>
+            </div>
+            <div class="email4">
+              <input type="email" placeholder="Enter Email" name="email" required>
+            </div>
+            <div class="password4">
+              <input type="password" placeholder="Enter Password" name="password" required>
+            </div>
+            <div id="login4">
+              <button class="login4" type="submit">Login</button>
+            </div>
+            <div>
+              <p id="desc4">If you are a new customer, <a href="register.html">create a new account</a></p>
+              <p class="desc4">By logging in, you agree to our terms of service and <br> privacy policy.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <script src="login.js"></script>
+    </section>
+    
+    <!---------------------------------------------- Features Page  ------------------------------------------------------------------------------------------------------------>
+    <section class="menu-section" id="features">
+      <h2 class="section-title"> Features </h2>
+      
+      <div class="slider">
+          <div class="menu-item">  
+            <h3 class="name"> Nuwara Eliya </h3>            
+              <img src="images/Nuwarae.jpg" alt="Nuwara Eliya" class="menu-image">
+              <h4 class="name"> <u> Destinations </u> </h4>
+                 <ul>
+                  <li> Bomburu ella Waterfall </li>
+                  <li> Horton Plains </li>
+                  <li> Haggala Botanical Garden </li>
+                 </ul>     
+              <h4 class="name"> <u> Travel Plans </u> </h4> 
+              <p> Day 1: </p> 
+                <ul type = "circle">
+                  <li> Morning: Visit Horton Plains (World's End, Baker's Falls). </li>
+                  <li> Evening: Relax in Nuwara Eliya town or at Gregory Lake. </li>  
+                </ul>     
+              <p> Day 2: </p> 
+                <ul type = "circle">
+                  <li> Morning: Explore Bomburu Ella Waterfall. </li>
+                  <li> Afternoon: Visit Haggala Botanical Garden. </li>  
+                </ul>
+              <p> Start early each day to maximize your time! </p> 
+          </div>    
+
+          <div class="menu-item">
+            <h3 class="name"> Kandy </h3>
+              <img src="images/Kandy.jpg" alt="Kandy" class="menu-image">
+              <h4 class="name"> <u> Destinations </u> </h4>
+                <ul>
+                  <li> Sri Dalada Maligawa </li>
+                  <li> Kandy Lake </li>
+                  <li> Ambuluwawa Tower </li>
+                </ul> 
+              <h4 class="name"> <u> Travel Plans </u> </h4> 
+              <p> Day 1: </p> 
+                <ul type = "circle" class = "about">
+                  <li> Morning: Visit Sri Dalada Maligawa (Temple of the Sacred Tooth Relic). </li>
+                  <li> Afternoon: Walk around Kandy Lake and enjoy the serene views. </li>  
+                  <li> Evening: Explore local shops or cultural performances. </li>
+                </ul>     
+              <p> Day 2: </p> 
+                <ul type = "circle">
+                  <li> Morning: Head to Ambuluwawa Tower for breathtaking views and a unique experience. </li>
+                  <li> Afternoon: Return to Kandy for relaxation or additional sightseeing. </li>  
+                </ul>
+              <p> Start early, especially for Ambuluwawa, to avoid crowds! </p> 
+          </div>    
+
+          <div class="menu-item">
+            <h3 class="name"> Badulla </h3>
+              <img src="images/Badulla.jpg" alt="Badulla" class="menu-image">
+              <h4 class="name"> <u> Destinations </u> </h4>
+                <ul>
+                  <li> Nine Arches Bridge </li>
+                  <li> Dunhinda Falls </li>
+                  <li> Little Adam's Peak </li>
+                </ul>  
+              <h4 class="name"> <u> Travel Plans </u> </h4> 
+              <p> Day 1: </p> 
+              <ul type = "circle" class = "about">
+                <li> Morning: Hike to Little Adam's Peak for stunning views. </li>
+                <li> Afternoon: Visit the iconic Nine Arches Bridge and watch a train pass by. </li>  
+              </ul>     
+              <p> Day 2: </p> 
+                <ul type = "circle">
+                  <li> Morning: Explore Dunhinda Falls, a picturesque waterfall. </li>
+                  <li> Afternoon: Relax or explore more of Badulla town. </li>  
+                </ul>
+              <p> Start early for the best experience at all locations! </p>  
+          </div> 
+      </div>
+
+        <footer class="footer">
+            &copy; 2025 Your Website. All rights reserved.
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </footer>
+
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const slider = document.querySelector(".slider");
+          const leftButton = document.querySelector(".nav-button.left");
+          const rightButton = document.querySelector(".nav-button.right");
+          const scrollAmount = 300;
+
+          leftButton.addEventListener("click", function () {
+              slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+          });
+
+          rightButton.addEventListener("click", function () {
+              slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
+          });
+      });
+  </script>
+
+
+<!-------------Gallery Page --------------------------------------------------------------------------------------------------------------->
+
+<section id="gallery" class = "gallery-section">
+  <h1> Gallery </h1>  
+  <div class="gallery">
+    <div class="gallery-item large"> 
+      <a target="_blank" href="travels1.webp"> <img src="images/travels1.webp" alt="Image-1" class="gallery-image"> </a> 
+    </div>
+
+    <div class="gallery-item small"> 
+      <a target="_blank" href="travels6.jpeg"> <img src="images/travels6.jpeg" alt="Image-2" class="gallery-image"> </a>
+    </div>
+
+    <div class="gallery-item small"> 
+      <a target="_blank" href="travels2.jpg"> <img src="images/travels2.jpg" alt="Image-3" class="gallery-image"> </a>
+    </div>
+
+  </div>
+  
+  <div class="photo">
+    <button class="image" type="submit"> <a href="Photo_Gallery.html" target="_blank"> View More </a> </button>
+  </div>
+  
+  <footer class="footer">
+      &copy; 2025 Your Website. All rights reserved.
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </footer>
+
+</section>
+
+    <!----------------------------------------------About Us Page ------------------------------------------------------------------------------------------------------------>
+
+    <section id="about">
+        <div class="container">
+            <img src="images/travel3.jpg" alt="About Us" class="about-image">
+
+            <div class="text-content">
+              <h1 class = " about "> About Us </h1>
+              <p>
+                Welcome to SK Travels! We're here to make your travel experience easy, enjoyable, and memorable. Whether you're planning a vacation, a business trip, or an adventure, we offer personalized travel services to fit your needs.
+
+                Our team is dedicated to providing you with the best options for flights, hotels, tours, and activities. We handle the details so you can focus on having fun and making memories. With SK Travels, you can expect great service, comfort, and convenience throughout your journey.
+                
+                Let's make your next trip the best one yet!
+              </p>
+
+              <div class="social-icons">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr#" aria-label="Facebook">
+                  <img src="images/facebook.webp" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                  <img src="images/instagram.webp" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://x.com/" aria-label="Twitter">
+                  <img src="images/twitter.png" alt="Twitter" class="social-icon">
+                </a>
+              </div>
+
+            </div>
+            
+          </div>
+
+          <footer class="footer">
+            &copy; 2025 Your Website. All rights reserved.
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </footer>
+    </section>
+
+      <!------------------------------------Contact Us Page ------------------------------------------------------------------------------------------------------------>
+
+      <section id="contact">
+        <div class="contact-container7">
+            <div class="contact-details7">
+                <h2>Contact Us</h2>
+                <p><i>🏢</i> Neervely, Jaffna</p>
+                <p><i>📧</i> sktravels2025@gmail.com</p>
+                <p><i>📞</i> 0771234567</p>
+                <p><i>⏰</i> Monday - Friday 9.00 a.m. to 5.00 p.m.</p>
+                <p><i>⏰</i> Saturday 10.00 a.m. to 3.00 p.m.</p>
+                <p><i>⏰</i> Sunday closed</p>
+                <p><i>🌐</i> <a href="http://www.sktravels2025.com" target="_blank">www.sktravels2025.com</a></p>
+            </div>
+            <div class="contact-form7">
+                <form id="contact_Form" action="contact.php" method="POST">
+                  <input id="name" name="name" type="text" placeholder="Name" required>
+                  <input id="email" name="email" type="email" placeholder="Email" required>
+                  <textarea id="Message" name="message" placeholder="Message" required></textarea>
+                  
+                  <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            &copy; 2025 Your Website. All rights reserved.
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </footer>
+        <script src="contact.js"></script>
+    </section>
+</body> 
+</html>
+
+
+

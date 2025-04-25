@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SK Travels</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+        background: url('images/back12.jpg') center/cover no-repeat;
+      }
+    </style>
+</head>
+<body>
+  <main>
+    <section class="form-section">
+      <h2>Plan Your Trip!</h2>
+      <form id="trip-form" method="POST" action="Itinerary.php">
+        <label for="destination">Destinations</label>
+        <select id="destination" name="destination" required>
+          <option value="" disabled selected>Select a destination</option>
+          <option value="nuwara-eliya">Nuwara Eliya</option>
+          <option value="badulla">Badulla</option>
+          <option value="kandy">Kandy</option>
+        </select>
+      
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start_date" required>
+      
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end_date" required>
+      
+        <label for="activities">Activities:</label>
+        <textarea id="activities" name="activities" placeholder="List the activities you want to do"></textarea>
+      
+        <button type="submit" id="save-btn">Save</button>
+
+        <button type="reset" id="clear-btn">Clear</button>
+      </form>
+    </section>
+  </main>
+  <script src="itinerary.js"></script>
+</body>
+</html>

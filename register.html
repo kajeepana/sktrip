@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Register</title></head>
+<style>
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8eef2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container Styling */
+.body5 {
+    background-color: #66a7b3;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200%;
+    max-width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body5:hover{
+    box-shadow: 0 12px 30px 5px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.content5 div {
+    margin-bottom: 15px;
+}
+
+/* Input and Dropdown Styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+    background-color: #004a5d;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #338a96;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Paragraph Styling */
+.p5 {
+    text-align: center;
+    font-size: 14px;
+    color: #0c0b0b;
+    line-height: 1.5;
+}
+.select{
+    color: rgb(129, 129, 123);
+}
+option{
+    color:rgb(129, 129, 123) ;
+}
+</style>
+<body>
+    <div class="body5">
+        <h2>Welcome to Register..!</h2>
+        <form id="registerForm" method="post" action="register.php">
+            <div class="content5">
+                <div>
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                </div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Enter email" required>
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required>
+                </div>
+                <div>
+                    <button type="submit"> Register </button>
+                </div>
+                <div>
+                    <p class="p5">By registering, you agree to our Terms of Service and <br>Privacy Policy.</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
